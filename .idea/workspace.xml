@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4f629568-5765-4b8a-914d-c23e45fee8dc" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Controller/TestController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -72,7 +71,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Repository/ProblemRepository.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
@@ -81,11 +80,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="456">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
             </state>
           </provider>
         </entry>
@@ -112,14 +111,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dev" />
+      </map>
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Repository/UserTestRepository.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/Controller/TestController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
       </list>
     </option>
   </component>
@@ -275,7 +279,7 @@
       <workItem from="1556628382762" duration="2153000" />
       <workItem from="1556634125406" duration="1583000" />
       <workItem from="1556724948590" duration="770000" />
-      <workItem from="1556725829155" duration="1361000" />
+      <workItem from="1556725829155" duration="1985000" />
     </task>
     <task id="LOCAL-00001" summary="delete the useless package">
       <created>1556193464944</created>
@@ -284,17 +288,23 @@
       <option name="project" value="LOCAL" />
       <updated>1556193464944</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="delete the useless package">
+      <created>1556729242914</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1556729242914</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12550000" />
+    <option name="totallyTimeSpent" value="13174000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1455" height="935" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27845383" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27845383" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -304,7 +314,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" visible="true" weight="0.25031134" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49892628" weight="0.25031134" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,10 +322,10 @@
       <window_info anchor="bottom" id="Spring" order="7" weight="0.40846825" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010737" side_tool="true" visible="true" weight="0.25031134" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003579" side_tool="true" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info anchor="bottom" id="Version Control" order="13" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="13" sideWeight="0.4996421" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32876712" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -392,13 +402,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/TestDao/TestMysql.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
@@ -433,6 +436,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
