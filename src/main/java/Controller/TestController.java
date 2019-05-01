@@ -27,7 +27,7 @@ public class TestController {
         user.setName(name);
         user.setOpenid(openid);
         user.setCity(city);
-        userRepository.save(user);
+        //userRepository.save(user);
         return user.toString();
     }
     @PostMapping("/")

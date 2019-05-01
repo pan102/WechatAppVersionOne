@@ -9,16 +9,14 @@ spring:
     url: jdbc:mysql://127.0.0.1:3306/wechatapp?useSSL=false&serverTimezone=UTC
     data-username: root
     password: Pan102887@qq.com
+    initialize: true
   jpa:
     database: mysql
     show-sql: true
 #Hibernate ddl auto (validate|create|create-drop|update)
     hibernate:
       ddl-auto: update
-    properties:
-      hibernate:
-        hdm2ddl:
-          auto: update
+
 
 
 
