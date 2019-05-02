@@ -5,21 +5,25 @@ import Repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.persistence.Entity;
+
 @SpringBootApplication(exclude = DataSourceAutoConfiguration.class)
 @RestController
+@EntityScan("Entity")
 public class TestController {
 
     private UserRepository userRepository;
 
     @RequestMapping("/")
     String test(){
-        return "helloee";
+        return "hello";
     }
     @PostMapping("/login")
     public String save(@RequestParam String name,@RequestParam String openid,@RequestParam String city){
@@ -27,7 +31,7 @@ public class TestController {
         user.setName(name);
         user.setOpenid(openid);
         user.setCity(city);
-        //userRepository.save(user);
+        userRepository.save(user);
         return user.toString();
     }
     @PostMapping("/")
